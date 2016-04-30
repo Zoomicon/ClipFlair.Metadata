@@ -1,137 +1,149 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="ClipFlair.Metadata.ClipFlairMetadata">
-    <Position X="3.5" Y="0.5" Width="2.75" />
+    <Position X="4.25" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAQAgAAAAAAARACAAAAAAAEAQAEAAAAAABAAAABAiAA=</HashCode>
-      <FileName>ClipFlairMetadata.cs</FileName>
+      <FileName>Metadata\ClipFlairMetadata.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="ClipFlair.Metadata.ClipFlairMetadataFacets">
-    <Position X="7.5" Y="0.5" Width="2.5" />
+    <Position X="7.75" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAIAAACAEAAAAAAAACAAAEAAAAIAAAAAAAAAA=</HashCode>
-      <FileName>ClipFlairMetadataFacets.cs</FileName>
+      <FileName>Metadata\ClipFlairMetadataFacets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.ActivityMetadata">
-    <Position X="3.5" Y="4.25" Width="3.5" />
+    <Position X="3.5" Y="4.25" Width="3.75" />
     <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4" Y="3.627" />
-        <Point X="4" Y="3.95" />
-        <Point X="3.372" Y="3.95" />
-        <Point X="3.372" Y="5.812" />
-        <Point X="3.5" Y="5.812" />
+        <Point X="5.205" Y="3.627" />
+        <Point X="5.205" Y="4.06" />
+        <Point X="5.241" Y="4.06" />
+        <Point X="5.241" Y="4.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ABAAgAAAAhBAAAgAgAAACAAAAAAAAAAFAAAIAABAqQA=</HashCode>
-      <FileName>Activity\ActivityMetadata.cs</FileName>
+      <FileName>Metadata\Activity\ActivityMetadata.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="2.179" />
   </Class>
   <Class Name="ClipFlair.Metadata.ActivityMetadataFacets">
-    <Position X="7.5" Y="2.75" Width="3" />
+    <Position X="7.75" Y="3" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAgEDCAABABEBAAAEAAAAAQACAAAAAA=</HashCode>
-      <FileName>Activity\ActivityMetadataFacets.cs</FileName>
+      <FileName>Metadata\Activity\ActivityMetadataFacets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.VideoMetadataFacets">
-    <Position X="7.5" Y="6" Width="3" />
+    <Position X="7.75" Y="6.25" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAAAAAAQAggCAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>Video\VideoMetadataFacets.cs</FileName>
+      <FileName>Metadata\Video\VideoMetadataFacets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.ImageMetadataFacets">
-    <Position X="7.5" Y="8" Width="2.5" />
+    <Position X="7.75" Y="8.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>Image\ImageMetadataFacets.cs</FileName>
+      <FileName>Metadata\Image\ImageMetadataFacets.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.VideoMetadata">
-    <Position X="3.5" Y="8.75" Width="3.5" />
-    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedFromPoint="true" FixedToPoint="true">
+    <Position X="3.5" Y="8.75" Width="3.75" />
+    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4" Y="3.627" />
-        <Point X="4" Y="3.95" />
-        <Point X="3.372" Y="3.95" />
-        <Point X="3.372" Y="9.875" />
-        <Point X="3.5" Y="9.875" />
+        <Point X="5.205" Y="3.627" />
+        <Point X="5.205" Y="4.07" />
+        <Point X="3.372" Y="4.07" />
+        <Point X="3.372" Y="8.558" />
+        <Point X="4.973" Y="8.558" />
+        <Point X="4.973" Y="8.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAgAAAABACAAgAAJIAAAAAAAAAAAAABMAAAABAAAA=</HashCode>
-      <FileName>Video\VideoMetadata.cs</FileName>
+      <FileName>Metadata\Video\VideoMetadata.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="2.29" />
   </Class>
   <Class Name="ClipFlair.Metadata.ImageMetadata">
-    <Position X="3.5" Y="12.25" Width="3.5" />
-    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedFromPoint="true" FixedToPoint="true">
+    <Position X="3.5" Y="12.25" Width="3.75" />
+    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4" Y="3.627" />
-        <Point X="4" Y="3.95" />
-        <Point X="3.372" Y="3.95" />
-        <Point X="3.372" Y="13" />
-        <Point X="3.5" Y="13" />
+        <Point X="5.205" Y="3.627" />
+        <Point X="5.205" Y="4.06" />
+        <Point X="3.372" Y="4.06" />
+        <Point X="3.372" Y="11.95" />
+        <Point X="4.973" Y="11.95" />
+        <Point X="4.973" Y="12.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAgAAAABAAAAgAAAAAAAAAAAAgAAAABAAAAABAAAA=</HashCode>
-      <FileName>Image\ImageMetadata.cs</FileName>
+      <FileName>Metadata\Image\ImageMetadata.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="2.315" />
   </Class>
   <Interface Name="ClipFlair.Metadata.IClipFlairMetadata">
-    <Position X="0.5" Y="0.5" Width="2" />
+    <Position X="0.5" Y="4" Width="2" />
+    <InheritanceLine Type="Metadata.CXML.ICXMLMetadata" FixedFromPoint="true">
+      <Path>
+        <Point X="1.5" Y="3.506" />
+        <Point X="1.5" Y="4" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAQAAAAAAAAAEAQAAAAAAAABAAAAAAiAA=</HashCode>
-      <FileName>IClipFlairMetadata.cs</FileName>
+      <FileName>Metadata\IClipFlairMetadata.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClipFlair.Metadata.IActivityMetadata">
-    <Position X="0.5" Y="3" Width="2.5" />
+    <Position X="0.5" Y="6.75" Width="2.5" />
     <InheritanceLine Type="ClipFlair.Metadata.IClipFlairMetadata" FixedToPoint="true">
       <Path>
-        <Point X="1.5" Y="2.587" />
-        <Point X="1.5" Y="2.76" />
-        <Point X="0.26" Y="2.76" />
-        <Point X="0.26" Y="3.5" />
-        <Point X="0.5" Y="3.5" />
+        <Point X="1.5" Y="6.087" />
+        <Point X="1.5" Y="6.5" />
+        <Point X="0.25" Y="6.5" />
+        <Point X="0.25" Y="8.287" />
+        <Point X="0.5" Y="8.287" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ABAAAAAAAhBAAAAAgAAAAAAAAAAAAAAFAAAIAABAqQA=</HashCode>
-      <FileName>Activity\IActivityMetadata.cs</FileName>
+      <FileName>Metadata\Activity\IActivityMetadata.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClipFlair.Metadata.IVideoMetadata">
-    <Position X="0.5" Y="6.25" Width="2.25" />
+    <Position X="0.5" Y="10.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAJIAAAAAAAAAAAAABEAAAAAAAAA=</HashCode>
-      <FileName>Video\IVideoMetadata.cs</FileName>
+      <FileName>Metadata\Video\IVideoMetadata.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ClipFlair.Metadata.IImageMetadata">
-    <Position X="0.5" Y="8.5" Width="2" />
+    <Position X="0.5" Y="12.75" Width="2" />
     <InheritanceLine Type="ClipFlair.Metadata.IClipFlairMetadata" FixedToPoint="true">
       <Path>
-        <Point X="1.5" Y="2.587" />
-        <Point X="1.5" Y="2.76" />
-        <Point X="0.26" Y="2.76" />
-        <Point X="0.26" Y="8.938" />
-        <Point X="0.5" Y="8.938" />
+        <Point X="1.5" Y="6.087" />
+        <Point X="1.5" Y="6.5" />
+        <Point X="0.25" Y="6.5" />
+        <Point X="0.25" Y="12.45" />
+        <Point X="1.5" Y="12.45" />
+        <Point X="1.5" Y="12.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>Image\IImageMetadata.cs</FileName>
+      <FileName>Metadata\Image\IImageMetadata.cs</FileName>
     </TypeIdentifier>
+  </Interface>
+  <Interface Name="Metadata.CXML.ICXMLMetadata">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier />
   </Interface>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>
