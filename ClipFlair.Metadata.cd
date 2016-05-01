@@ -19,10 +19,8 @@
     <Position X="3.5" Y="4.25" Width="3.75" />
     <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.205" Y="3.627" />
-        <Point X="5.205" Y="4.06" />
-        <Point X="5.241" Y="4.06" />
-        <Point X="5.241" Y="4.25" />
+        <Point X="5.25" Y="3.627" />
+        <Point X="5.25" Y="4.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -56,8 +54,8 @@
     <Position X="3.5" Y="8.75" Width="3.75" />
     <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.205" Y="3.627" />
-        <Point X="5.205" Y="4.07" />
+        <Point X="5.25" Y="3.627" />
+        <Point X="5.25" Y="4.07" />
         <Point X="3.372" Y="4.07" />
         <Point X="3.372" Y="8.558" />
         <Point X="4.973" Y="8.558" />
@@ -74,8 +72,8 @@
     <Position X="3.5" Y="12.25" Width="3.75" />
     <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.205" Y="3.627" />
-        <Point X="5.205" Y="4.06" />
+        <Point X="5.25" Y="3.627" />
+        <Point X="5.25" Y="4.06" />
         <Point X="3.372" Y="4.06" />
         <Point X="3.372" Y="11.95" />
         <Point X="4.973" Y="11.95" />
