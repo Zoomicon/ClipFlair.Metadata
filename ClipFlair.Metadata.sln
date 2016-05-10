@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipFlair.Metadata", "ClipFlair.Metadata.csproj", "{A84716D5-5523-421C-AEB6-9EBAA0C77F93}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{DBE78397-968C-4D62-B40A-3B4F98A6ECE4}"
 	ProjectSection(SolutionItems) = preProject
-		Diagrams\ClipFlair.Metadata.png = Diagrams\ClipFlair.Metadata.png
+		ClipFlair.Metadata.cd = ClipFlair.Metadata.cd
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{8EBE710F-A8F3-47C7-9066-D7AC545B3825}"
