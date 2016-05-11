@@ -15,14 +15,10 @@ namespace ClipFlair.Metadata.Tests
     [TestMethod]
     public void TestSave()
     {
-      Save("test");
-    }
-
-    public static void Save(string key)
-    {
       IVideoMetadata metadata = new VideoMetadata();
-      metadata.Id = key;
       metadata.Clear();
+      metadata.Id = "22";
+      metadata.Filename = "testVideo.wmv";
       using (XmlWriter writer = Helpers.CreateXmlWriter(@"testVideoMetadata.cxml"))
         metadata.Save(writer);
     }
@@ -30,9 +26,13 @@ namespace ClipFlair.Metadata.Tests
     [TestMethod]
     public void TestLoad()
     {
-      Save("test");
+      TestSave();
       using (XmlReader reader = Helpers.CreateXmlReader(@"testVideoMetadata.cxml"))
-        new VideoMetadata().Load("test", reader, null);
+      {
+        IVideoMetadata metadata = (IVideoMetadata)new VideoMetadata().Load("testVideo.wmv", reader, null);
+        Assert.AreEqual("22", metadata.Id);
+        Assert.AreEqual("testVideo.wmv", metadata.Filename);
+      }
     }
 
   }
