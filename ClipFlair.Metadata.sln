@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{DBE78397-968C-4D62-B40A-3B4F98A6ECE4}"
 	ProjectSection(SolutionItems) = preProject
 		ClipFlair.Metadata.cd = ClipFlair.Metadata.cd
+		Tests\ClipFlair.Metadata.Tests.cd = Tests\ClipFlair.Metadata.Tests.cd
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{8EBE710F-A8F3-47C7-9066-D7AC545B3825}"
@@ -16,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{8EBE710F
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClipFlair.Metadata.Tests", "Tests\ClipFlair.Metadata.Tests.csproj", "{D29B0123-96A1-40F2-9D43-B158DD7AEBE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED6596F7-63C0-412D-8B88-C518B33AF13E}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
