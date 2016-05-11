@@ -15,14 +15,10 @@ namespace ClipFlair.Metadata.Tests
     [TestMethod]
     public void TestSave()
     {
-      Save("test");
-    }
-
-    public static void Save(string key)
-    {
       IImageMetadata metadata = new ImageMetadata();
-      metadata.Id = key;
       metadata.Clear();
+      metadata.Id = "33";
+      metadata.Filename = "testImage.jpg";
       using (XmlWriter writer = Helpers.CreateXmlWriter(@"testImageMetadata.cxml"))
         metadata.Save(writer);
     }
@@ -30,9 +26,13 @@ namespace ClipFlair.Metadata.Tests
     [TestMethod]
     public void TestLoad()
     {
-      Save("test");
+      TestSave();
       using (XmlReader reader = Helpers.CreateXmlReader(@"testImageMetadata.cxml"))
-        new ImageMetadata().Load("test", reader, null);
+      {
+        IImageMetadata metadata = (IImageMetadata)new ImageMetadata().Load("testImage.jpg", reader, null);
+        Assert.AreEqual("33", metadata.Id);
+        Assert.AreEqual("testImage.jpg", metadata.Filename);
+      }
     }
 
   }
