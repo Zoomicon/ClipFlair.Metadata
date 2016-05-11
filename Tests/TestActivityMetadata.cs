@@ -1,7 +1,5 @@
-﻿using ClipFlair.Metadata;
-
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Xml;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ClipFlair.Metadata.Tests
 {
@@ -15,15 +13,27 @@ namespace ClipFlair.Metadata.Tests
     }
 
     [TestMethod]
-    public void TestStorage()
+    public void TestSave()
+    {
+      Save("test");
+    }
+
+    public static void Save(string key)
     {
       IActivityMetadata metadata = new ActivityMetadata();
+      metadata.Id = key;
       metadata.Clear();
-      using (XmlWriter writer = Helpers.CreateXmlWriter(@"testActivity.cxml"))
+      using (XmlWriter writer = Helpers.CreateXmlWriter(@"testActivityMetadata.cxml"))
         metadata.Save(writer);
     }
 
-
+    [TestMethod]
+    public void TestLoad()
+    {
+      Save("test");
+      using (XmlReader reader = Helpers.CreateXmlReader(@"testActivityMetadata.cxml"))
+        new ActivityMetadata().Load("test", reader, null);
+    }
 
   }
 }
