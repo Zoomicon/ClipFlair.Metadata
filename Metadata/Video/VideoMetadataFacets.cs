@@ -1,4 +1,4 @@
-﻿//Project: ClipFlair (http://ClipFlair.codeplex.com)
+﻿//Project: ClipFlair.Metadata (https://github.com/Zoomicon/ClipFlair.Metadata)
 //Filename: VideoMetadataFacets.cs
 //Version: 20131101
 

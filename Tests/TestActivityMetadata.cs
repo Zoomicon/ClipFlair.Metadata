@@ -1,4 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//Project: ClipFlair.Metadata (https://github.com/Zoomicon/ClipFlair.Metadata)
+//Filename: TestActivityMetadata.cs
+//Version: 20160514
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Xml;
 
 namespace ClipFlair.Metadata.Tests
@@ -7,13 +11,14 @@ namespace ClipFlair.Metadata.Tests
   public class TestActivityMetadata
   {
     [TestMethod]
-    public void TestConstructor()
+    public void CreateActivityMetadata()
     {
       IActivityMetadata metadata = new ActivityMetadata();
+      metadata.Clear();
     }
 
     [TestMethod]
-    public void TestSave()
+    public void SaveActivityMetadata()
     {
       IActivityMetadata metadata = new ActivityMetadata();
       metadata.Clear();
@@ -24,9 +29,9 @@ namespace ClipFlair.Metadata.Tests
     }
 
     [TestMethod]
-    public void TestLoad()
+    public void LoadActivityMetadata()
     {
-      TestSave();
+      SaveActivityMetadata();
       using (XmlReader reader = Helpers.CreateXmlReader(@"testActivityMetadata.cxml"))
       {
         IActivityMetadata metadata = (IActivityMetadata)new ActivityMetadata().Load("testActivity.clipflair", reader, null);

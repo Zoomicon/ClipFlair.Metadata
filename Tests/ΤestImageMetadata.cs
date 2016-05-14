@@ -1,4 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//Project: ClipFlair.Metadata (https://github.com/Zoomicon/ClipFlair.Metadata)
+//Filename: TestImageMetadata.cs
+//Version: 20160514
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Xml;
 
 namespace ClipFlair.Metadata.Tests
@@ -7,13 +11,14 @@ namespace ClipFlair.Metadata.Tests
   public class TestImageMetadata
   {
     [TestMethod]
-    public void TestConstructor()
+    public void CreateImageMetadata()
     {
       IImageMetadata metadata = new ImageMetadata();
+      metadata.Clear();
     }
 
     [TestMethod]
-    public void TestSave()
+    public void SaveImageMetadata()
     {
       IImageMetadata metadata = new ImageMetadata();
       metadata.Clear();
@@ -24,9 +29,9 @@ namespace ClipFlair.Metadata.Tests
     }
 
     [TestMethod]
-    public void TestLoad()
+    public void LoadImageMetadata()
     {
-      TestSave();
+      SaveImageMetadata();
       using (XmlReader reader = Helpers.CreateXmlReader(@"testImageMetadata.cxml"))
       {
         IImageMetadata metadata = (IImageMetadata)new ImageMetadata().Load("testImage.jpg", reader, null);
