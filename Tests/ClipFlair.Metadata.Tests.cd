@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ClipFlair.Metadata.Tests.TestActivityMetadata">
-    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Position X="0.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAA=</HashCode>
       <FileName>TestActivityMetadata.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.Tests.TestVideoMetadata">
-    <Position X="3" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABAAEAAAAAAA=</HashCode>
       <FileName>TestVideoMetadata.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ClipFlair.Metadata.Tests.TestImageMetadata">
-    <Position X="5.25" Y="0.5" Width="1.75" />
+    <Position X="5.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAEAACAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>ΤestImageMetadata.cs</FileName>
     </TypeIdentifier>
   </Class>
