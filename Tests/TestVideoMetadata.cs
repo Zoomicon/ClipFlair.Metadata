@@ -1,4 +1,8 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿//Project: ClipFlair.Metadata (https://github.com/Zoomicon/ClipFlair.Metadata)
+//Filename: TestVideoMetadata.cs
+//Version: 20160514
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Xml;
 
 namespace ClipFlair.Metadata.Tests
@@ -7,13 +11,14 @@ namespace ClipFlair.Metadata.Tests
   public class TestVideoMetadata
   {
     [TestMethod]
-    public void TestConstructor()
+    public void CreateVideoMetadata()
     {
       IVideoMetadata metadata = new VideoMetadata();
+      metadata.Clear();
     }
 
     [TestMethod]
-    public void TestSave()
+    public void SaveVideoMetadata()
     {
       IVideoMetadata metadata = new VideoMetadata();
       metadata.Clear();
@@ -24,9 +29,9 @@ namespace ClipFlair.Metadata.Tests
     }
 
     [TestMethod]
-    public void TestLoad()
+    public void LoadVideoMetadata()
     {
-      TestSave();
+      SaveVideoMetadata();
       using (XmlReader reader = Helpers.CreateXmlReader(@"testVideoMetadata.cxml"))
       {
         IVideoMetadata metadata = (IVideoMetadata)new VideoMetadata().Load("testVideo.wmv", reader, null);
