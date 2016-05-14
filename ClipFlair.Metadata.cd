@@ -17,17 +17,17 @@
   </Class>
   <Class Name="ClipFlair.Metadata.ActivityMetadata">
     <Position X="3.5" Y="4.25" Width="3.75" />
-    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedFromPoint="true" FixedToPoint="true">
+    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" FixedToPoint="true">
       <Path>
-        <Point X="5.25" Y="3.627" />
-        <Point X="5.25" Y="4.25" />
+        <Point X="5.75" Y="3.763" />
+        <Point X="5.75" Y="4.25" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ABAAgAAAAhBAAAgAgAAACAAAAAAAAAAFAAAIAABAqQA=</HashCode>
       <FileName>Metadata\Activity\ActivityMetadata.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="2.179" />
+    <Lollipop Position="2.596" />
   </Class>
   <Class Name="ClipFlair.Metadata.ActivityMetadataFacets">
     <Position X="7.75" Y="3" Width="3.25" />
@@ -52,14 +52,14 @@
   </Class>
   <Class Name="ClipFlair.Metadata.VideoMetadata">
     <Position X="3.5" Y="8.75" Width="3.75" />
-    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true">
       <Path>
-        <Point X="5.25" Y="3.627" />
-        <Point X="5.25" Y="4.07" />
-        <Point X="3.372" Y="4.07" />
-        <Point X="3.372" Y="8.558" />
-        <Point X="4.973" Y="8.558" />
-        <Point X="4.973" Y="8.75" />
+        <Point X="5.75" Y="3.763" />
+        <Point X="5.75" Y="4.085" />
+        <Point X="3.418" Y="4.085" />
+        <Point X="3.418" Y="8.627" />
+        <Point X="5.375" Y="8.627" />
+        <Point X="5.375" Y="8.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -70,16 +70,6 @@
   </Class>
   <Class Name="ClipFlair.Metadata.ImageMetadata">
     <Position X="3.5" Y="12.25" Width="3.75" />
-    <InheritanceLine Type="ClipFlair.Metadata.ClipFlairMetadata" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="5.25" Y="3.627" />
-        <Point X="5.25" Y="4.06" />
-        <Point X="3.372" Y="4.06" />
-        <Point X="3.372" Y="11.95" />
-        <Point X="4.973" Y="11.95" />
-        <Point X="4.973" Y="12.25" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAgAAAABAAAAgAAAAAAAAAAAAgAAAABAAAAABAAAA=</HashCode>
       <FileName>Metadata\Image\ImageMetadata.cs</FileName>
@@ -88,12 +78,6 @@
   </Class>
   <Interface Name="ClipFlair.Metadata.IClipFlairMetadata">
     <Position X="0.5" Y="4" Width="2" />
-    <InheritanceLine Type="Metadata.CXML.ICXMLMetadata" FixedFromPoint="true">
-      <Path>
-        <Point X="1.5" Y="3.506" />
-        <Point X="1.5" Y="4" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAQAAAAAAAAAEAQAAAAAAAABAAAAAAiAA=</HashCode>
       <FileName>Metadata\IClipFlairMetadata.cs</FileName>
@@ -101,15 +85,6 @@
   </Interface>
   <Interface Name="ClipFlair.Metadata.IActivityMetadata">
     <Position X="0.5" Y="6.75" Width="2.5" />
-    <InheritanceLine Type="ClipFlair.Metadata.IClipFlairMetadata" FixedToPoint="true">
-      <Path>
-        <Point X="1.5" Y="6.087" />
-        <Point X="1.5" Y="6.5" />
-        <Point X="0.25" Y="6.5" />
-        <Point X="0.25" Y="8.287" />
-        <Point X="0.5" Y="8.287" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>ABAAAAAAAhBAAAAAgAAAAAAAAAAAAAAFAAAIAABAqQA=</HashCode>
       <FileName>Metadata\Activity\IActivityMetadata.cs</FileName>
@@ -124,16 +99,6 @@
   </Interface>
   <Interface Name="ClipFlair.Metadata.IImageMetadata">
     <Position X="0.5" Y="12.75" Width="2" />
-    <InheritanceLine Type="ClipFlair.Metadata.IClipFlairMetadata" FixedToPoint="true">
-      <Path>
-        <Point X="1.5" Y="6.087" />
-        <Point X="1.5" Y="6.5" />
-        <Point X="0.25" Y="6.5" />
-        <Point X="0.25" Y="12.45" />
-        <Point X="1.5" Y="12.45" />
-        <Point X="1.5" Y="12.75" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Metadata\Image\IImageMetadata.cs</FileName>
